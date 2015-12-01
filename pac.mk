@@ -1,14 +1,14 @@
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/pac/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/jewel/jewel.mk)
 
 # Device naming
 PRODUCT_DEVICE := jewel
-PRODUCT_NAME := cm_jewel
+PRODUCT_NAME := pac_jewel
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := EVO
 PRODUCT_MANUFACTURER := HTC
