@@ -21,5 +21,6 @@ PRODUCT_RELEASE_NAME := jewel
 
 # Boot animation
 PAC_BOOTANIMATION_NAME := 720
+TW_THEME := portrait_hdpi
 
 -include vendor/cm/config/common_versions.mk
